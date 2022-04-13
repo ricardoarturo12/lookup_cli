@@ -10,10 +10,6 @@ import (
 )
 
 func main() {
-	// err := cli.NewApp().Run(os.Args)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
 	app := cli.NewApp()
 	app.Name = "Website Lookup CLI"
 	app.Usage = "Let's you query IPs, CNAMEs, MX records and name servers"
@@ -21,7 +17,7 @@ func main() {
 	myFlags := []cli.Flag{
 		cli.StringFlag{
 			Name:  "host",
-			Value: "tutorialedge.net",
+			Value: "ricardoarturo.dev",
 		},
 	}
 
