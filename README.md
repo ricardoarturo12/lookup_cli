@@ -1,7 +1,6 @@
 <!-- Building a Network Command Line Interface Tool In Go
  -->
 
-# my_cli
 
 ```
 go run cli.go ip --host google.com
